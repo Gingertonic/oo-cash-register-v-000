@@ -19,7 +19,7 @@ class CashRegister
     else
       reduction = (self.total / 100) * self.discount
       @total = self.total - reduction
-      puts "After the discount, the total comes to $#{@total}."
+      "After the discount, the total comes to $#{@total}."
     end
   end
 
